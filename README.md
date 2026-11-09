@@ -17,10 +17,9 @@ Currently doing a postgrad in ML in Production. Site: **[vgmelo.tech](https://vg
 | [**genai-lens**](https://github.com/vicgamelo/genai-lens) | Self-hosted LLM observability: traces, tokens, cost and latency per model, OpenTelemetry GenAI endpoint, PII redaction. |
 | [**mlops-platform**](https://github.com/vicgamelo/mlops-platform) | MLflow end to end for credit risk: lineage, gated champion/challenger promotion with a fairness check, drift (PSI), hot-swapping model serving. |
 | [**ml-from-scratch**](https://github.com/vicgamelo/ml-from-scratch) | Classic ML and attention in pure NumPy, every algorithm verified against scikit-learn. |
-| [**vps-infra**](https://github.com/vicgamelo/vps-infra) | How all of the above runs on one VPS: Caddy, Docker Compose, hardening, backups. |
 
 They're meant to work together: the agents call **mcp-server-brasil** over MCP, every run is
-traced in **genai-lens**, and **mlops-platform** serves the model that **vps-infra** deploys.
+traced in **genai-lens**, and **mlops-platform** serves the credit scoring model.
 
 #### 🧰 Stack
 
